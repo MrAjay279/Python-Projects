@@ -90,7 +90,7 @@ wn.onkeypress(go_right, "Right")
 while True:
     wn.update()
 
-    # Check for a collision with the border
+    # Check for a collision with the borders
     if head.xcor()>490 or head.xcor()<-490 or head.ycor()>290 or head.ycor()<-290:
         time.sleep(1)
         head.goto(0,0)
